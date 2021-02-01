@@ -14,36 +14,8 @@ export class ScrabbleComponent extends Component<{}, {}> {
   display: any;
   selection: any;
   disabled: any;
-  successJumbotron = (
-    <Jumbotron className="text-center">
-      <h1>You Win</h1>
-      <p>
-        <i className="fa fa-smile-o fa-3x" aria-hidden="true"></i>
-        Correct word
-        {this.word}
-      </p>
-      <p>
-        <Button variant="primary" onClick={this.newGame.bind(this)}>
-          Next
-        </Button>
-      </p>
-    </Jumbotron>
-  );
-  failureJumbotron = (
-    <Jumbotron className="text-center">
-      <h1>Try again!</h1>
-      <p>
-        <i className="fa fa-frown-o fa-3x" aria-hidden="true"></i>
-        Correct word
-        {this.word}
-      </p>
-      <p>
-        <Button variant="primary" onClick={this.newGame.bind(this)}>
-          Next
-        </Button>
-      </p>
-    </Jumbotron>
-  );
+  successJumbotron: any;
+  failureJumbotron: any;
   hintJumbotron: any = "";
   failed = false;
   success = false;
@@ -77,9 +49,43 @@ export class ScrabbleComponent extends Component<{}, {}> {
     if (this.selection.join("") === this.word) {
       this.failed = false;
       this.success = true;
+      this.successJumbotron = (
+        <Jumbotron className="text-center">
+          <h1>You Win</h1>
+          <p>
+            <i className="fa fa-smile-o fa-3x" aria-hidden="true"></i>
+          </p>
+          <p>
+            Correct word &nbsp;
+            {this.word}
+          </p>
+          <p>
+            <Button variant="primary" onClick={this.newGame.bind(this)}>
+              Next
+            </Button>
+          </p>
+        </Jumbotron>
+      );
     } else {
       this.failed = true;
       this.success = false;
+      this.failureJumbotron = (
+        <Jumbotron className="text-center">
+          <h1>Try again!</h1>
+          <p>
+            <i className="fa fa-frown-o fa-3x" aria-hidden="true"></i>
+          </p>
+          <p>
+            Correct word &nbsp;
+            {this.word}
+          </p>
+          <p>
+            <Button variant="primary" onClick={this.newGame.bind(this)}>
+              Next
+            </Button>
+          </p>
+        </Jumbotron>
+      );
     }
     this.hintFlag = false;
     this.setState({});
@@ -174,6 +180,7 @@ export class ScrabbleComponent extends Component<{}, {}> {
                     key={"word" + index}
                   >
                     <Button
+                      // hidden={this.disabled[index] === true}
                       onClick={this.wordClick.bind(this, letter, index)}
                       disabled={this.disabled[index] === true}
                     >

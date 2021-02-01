@@ -35,7 +35,7 @@ function App() {
        */}
         </Navbar>
         <Switch>
-          <Route path="/Scrabble">
+          <Route path={["/Scrabble", "/"]}>
             <ScrabbleComponent />
           </Route>
           <Route path="/WordSearch">
