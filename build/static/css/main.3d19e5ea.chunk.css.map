@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,0BAEE,cAAe,CACf,eACF","file":"main.3d19e5ea.chunk.css","sourcesContent":[".badge-primary,\n.btn-group {\n  min-width: 40px;\n  min-height: 40px;\n}\n"]}
