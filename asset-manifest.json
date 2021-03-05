@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hkd-react/static/css/main.62a1019c.chunk.css",
-    "main.js": "/hkd-react/static/js/main.c9462946.chunk.js",
-    "main.js.map": "/hkd-react/static/js/main.c9462946.chunk.js.map",
-    "runtime-main.js": "/hkd-react/static/js/runtime-main.53513f89.js",
-    "runtime-main.js.map": "/hkd-react/static/js/runtime-main.53513f89.js.map",
+    "main.css": "/hkd-react/static/css/main.05760f5a.chunk.css",
+    "main.js": "/hkd-react/static/js/main.b929d363.chunk.js",
+    "main.js.map": "/hkd-react/static/js/main.b929d363.chunk.js.map",
+    "runtime-main.js": "/hkd-react/static/js/runtime-main.399a09d6.js",
+    "runtime-main.js.map": "/hkd-react/static/js/runtime-main.399a09d6.js.map",
     "static/css/2.4003cdbd.chunk.css": "/hkd-react/static/css/2.4003cdbd.chunk.css",
-    "static/js/2.1e415687.chunk.js": "/hkd-react/static/js/2.1e415687.chunk.js",
-    "static/js/2.1e415687.chunk.js.map": "/hkd-react/static/js/2.1e415687.chunk.js.map",
-    "static/js/3.2b05b363.chunk.js": "/hkd-react/static/js/3.2b05b363.chunk.js",
-    "static/js/3.2b05b363.chunk.js.map": "/hkd-react/static/js/3.2b05b363.chunk.js.map",
+    "static/js/2.dee306ab.chunk.js": "/hkd-react/static/js/2.dee306ab.chunk.js",
+    "static/js/2.dee306ab.chunk.js.map": "/hkd-react/static/js/2.dee306ab.chunk.js.map",
+    "static/js/3.68534243.chunk.js": "/hkd-react/static/js/3.68534243.chunk.js",
+    "static/js/3.68534243.chunk.js.map": "/hkd-react/static/js/3.68534243.chunk.js.map",
     "index.html": "/hkd-react/index.html",
     "static/css/2.4003cdbd.chunk.css.map": "/hkd-react/static/css/2.4003cdbd.chunk.css.map",
-    "static/css/main.62a1019c.chunk.css.map": "/hkd-react/static/css/main.62a1019c.chunk.css.map",
-    "static/js/2.1e415687.chunk.js.LICENSE.txt": "/hkd-react/static/js/2.1e415687.chunk.js.LICENSE.txt",
+    "static/css/main.05760f5a.chunk.css.map": "/hkd-react/static/css/main.05760f5a.chunk.css.map",
+    "static/js/2.dee306ab.chunk.js.LICENSE.txt": "/hkd-react/static/js/2.dee306ab.chunk.js.LICENSE.txt",
     "static/media/answer.5f038f52.png": "/hkd-react/static/media/answer.5f038f52.png",
     "static/media/styles.scss": "/hkd-react/static/media/background.524d3d61.jpg",
     "static/media/button-sound.8277ab8c.mp3": "/hkd-react/static/media/button-sound.8277ab8c.mp3",
@@ -24,10 +24,10 @@
     "static/media/wrong-answer.e08b616b.mp3": "/hkd-react/static/media/wrong-answer.e08b616b.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.53513f89.js",
+    "static/js/runtime-main.399a09d6.js",
     "static/css/2.4003cdbd.chunk.css",
-    "static/js/2.1e415687.chunk.js",
-    "static/css/main.62a1019c.chunk.css",
-    "static/js/main.c9462946.chunk.js"
+    "static/js/2.dee306ab.chunk.js",
+    "static/css/main.05760f5a.chunk.css",
+    "static/js/main.b929d363.chunk.js"
   ]
 }
